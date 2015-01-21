@@ -1,0 +1,1978 @@
+/*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+/* line 9, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/normalize.scss */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+/* line 19, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/normalize.scss */
+body {
+  margin: 0; }
+
+/* line 32, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block; }
+
+/* line 52, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/normalize.scss */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline; }
+
+/* line 65, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/* line 75, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/normalize.scss */
+[hidden],
+template {
+  display: none; }
+
+/* line 87, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/normalize.scss */
+a {
+  background: transparent; }
+
+/* line 95, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/normalize.scss */
+a:active,
+a:hover {
+  outline: 0; }
+
+/* line 107, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/* line 115, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/normalize.scss */
+b,
+strong {
+  font-weight: bold; }
+
+/* line 124, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/normalize.scss */
+dfn {
+  font-style: italic; }
+
+/* line 133, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/normalize.scss */
+h1 {
+  margin: 0.67em 0;
+  font-size: 2em; }
+
+/* line 142, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/normalize.scss */
+mark {
+  color: #000;
+  background: #ff0; }
+
+/* line 151, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/normalize.scss */
+small {
+  font-size: 80%; }
+
+/* line 159, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/normalize.scss */
+sub,
+sup {
+  position: relative;
+  font-size: 75%;
+  line-height: 0;
+  vertical-align: baseline; }
+
+/* line 167, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/normalize.scss */
+sup {
+  top: -.5em; }
+
+/* line 171, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/normalize.scss */
+sub {
+  bottom: -.25em; }
+
+/* line 182, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/normalize.scss */
+img {
+  border: 0; }
+
+/* line 190, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/normalize.scss */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* line 201, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/normalize.scss */
+figure {
+  margin: 1em 40px; }
+
+/* line 209, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/normalize.scss */
+hr {
+  height: 0;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box; }
+
+/* line 219, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/normalize.scss */
+pre {
+  overflow: auto; }
+
+/* line 227, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/normalize.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+/* line 250, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/normalize.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  margin: 0;
+  color: inherit;
+  font: inherit; }
+
+/* line 264, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/normalize.scss */
+button {
+  overflow: visible; }
+
+/* line 275, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/normalize.scss */
+button,
+select {
+  text-transform: none; }
+
+/* line 288, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/normalize.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+/* line 300, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/normalize.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default; }
+
+/* line 309, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/normalize.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  padding: 0;
+  border: 0; }
+
+/* line 320, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/normalize.scss */
+input {
+  line-height: normal; }
+
+/* line 332, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/normalize.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  padding: 0;
+  box-sizing: border-box; }
+
+/* line 344, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/normalize.scss */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/* line 355, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/normalize.scss */
+input[type="search"] {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  -webkit-appearance: textfield; }
+
+/* line 368, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/normalize.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/* line 377, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/normalize.scss */
+fieldset {
+  padding: .35em .625em .75em;
+  margin: 0 2px;
+  border: 1px solid #c0c0c0; }
+
+/* line 388, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/normalize.scss */
+legend {
+  padding: 0;
+  border: 0; }
+
+/* line 397, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/normalize.scss */
+textarea {
+  overflow: auto; }
+
+/* line 406, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/normalize.scss */
+optgroup {
+  font-weight: bold; }
+
+/* line 417, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/normalize.scss */
+table {
+  border-spacing: 0;
+  border-collapse: collapse; }
+
+/* line 422, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/normalize.scss */
+td,
+th {
+  padding: 0; }
+
+/* line 6, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/base.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 13, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/base.scss */
+body {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 17px;
+  line-height: 21px;
+  color: #000;
+  background-color: #fff; }
+
+/* line 27, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/base.scss */
+a {
+  color: #428bca;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent; }
+  /* line 32, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/base.scss */
+  a:active {
+    color: #3071a9; }
+
+/* line 38, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/base.scss */
+.content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+  background-color: #fff;
+  -webkit-overflow-scrolling: touch; }
+
+/* line 51, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/base.scss */
+.content > * {
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0); }
+
+/* line 57, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/base.scss */
+.bar-nav ~ .content {
+  padding-top: 44px; }
+
+/* line 60, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/base.scss */
+.bar-header-secondary ~ .content {
+  padding-top: 88px; }
+
+/* line 65, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/base.scss */
+.bar-footer ~ .content {
+  padding-bottom: 44px; }
+
+/* line 68, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/base.scss */
+.bar-footer-secondary ~ .content {
+  padding-bottom: 88px; }
+
+/* line 73, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/base.scss */
+.bar-tab ~ .content {
+  padding-bottom: 50px; }
+
+/* line 76, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/base.scss */
+.bar-footer-secondary-tab ~ .content {
+  padding-bottom: 94px; }
+
+/* line 81, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/base.scss */
+.content-padded {
+  margin: 10px; }
+
+/* line 84, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/base.scss */
+.pull-left {
+  float: left; }
+
+/* line 87, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/base.scss */
+.pull-right {
+  float: right; }
+
+/* line 23, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/mixins.scss */
+.clearfix:before, .clearfix:after {
+  display: table;
+  content: " "; }
+/* line 28, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/mixins.scss */
+.clearfix:after {
+  clear: both; }
+
+/* line 5, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/type.scss */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  line-height: 1; }
+
+/* line 10, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/type.scss */
+h1, .h1 {
+  font-size: 36px; }
+
+/* line 11, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/type.scss */
+h2, .h2 {
+  font-size: 30px; }
+
+/* line 12, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/type.scss */
+h3, .h3 {
+  font-size: 24px; }
+
+/* line 13, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/type.scss */
+h4, .h4 {
+  font-size: 18px; }
+
+/* line 14, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/type.scss */
+h5, .h5 {
+  font-size: 14px;
+  margin-top: 20px; }
+
+/* line 15, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/type.scss */
+h6, .h6 {
+  font-size: 12px;
+  margin-top: 20px; }
+
+/* line 18, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/type.scss */
+p {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #777; }
+
+/* line 5, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/buttons.scss */
+.btn {
+  position: relative;
+  display: inline-block;
+  padding: 6px 8px 7px;
+  margin-bottom: 0;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1;
+  color: #333;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: top;
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 3px; }
+  /* line 23, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/buttons.scss */
+  .btn:active, .btn.active {
+    color: inherit;
+    background-color: #ccc; }
+  /* line 30, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/buttons.scss */
+  .btn:disabled, .btn.disabled {
+    opacity: .6; }
+
+/* line 41, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/buttons.scss */
+.btn-primary {
+  color: #fff;
+  background-color: #428bca;
+  border: 1px solid #428bca; }
+  /* line 46, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/buttons.scss */
+  .btn-primary:active, .btn-primary.active {
+    color: #fff;
+    background-color: #3071a9;
+    border: 1px solid #3071a9; }
+
+/* line 55, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/buttons.scss */
+.btn-positive {
+  color: #fff;
+  background-color: #5cb85c;
+  border: 1px solid #5cb85c; }
+  /* line 60, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/buttons.scss */
+  .btn-positive:active, .btn-positive.active {
+    color: #fff;
+    background-color: #449d44;
+    border: 1px solid #449d44; }
+
+/* line 69, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/buttons.scss */
+.btn-negative {
+  color: #fff;
+  background-color: #d9534f;
+  border: 1px solid #d9534f; }
+  /* line 74, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/buttons.scss */
+  .btn-negative:active, .btn-negative.active {
+    color: #fff;
+    background-color: #c9302c;
+    border: 1px solid #c9302c; }
+
+/* line 83, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/buttons.scss */
+.btn-outlined {
+  background-color: transparent; }
+  /* line 86, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/buttons.scss */
+  .btn-outlined.btn-primary {
+    color: #428bca; }
+  /* line 89, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/buttons.scss */
+  .btn-outlined.btn-positive {
+    color: #5cb85c; }
+  /* line 92, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/buttons.scss */
+  .btn-outlined.btn-negative {
+    color: #d9534f; }
+  /* line 96, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/buttons.scss */
+  .btn-outlined.btn-primary:active, .btn-outlined.btn-positive:active, .btn-outlined.btn-negative:active {
+    color: #fff; }
+
+/* line 104, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/buttons.scss */
+.btn-link {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  color: #428bca;
+  background-color: transparent;
+  border: 0; }
+  /* line 111, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/buttons.scss */
+  .btn-link:active, .btn-link.active {
+    color: #3071a9;
+    background-color: transparent; }
+
+/* line 119, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/buttons.scss */
+.btn-block {
+  display: block;
+  width: 100%;
+  padding: 15px 0;
+  margin-bottom: 10px;
+  font-size: 18px; }
+
+/* line 131, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/buttons.scss */
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  width: 100%; }
+
+/* line 142, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/buttons.scss */
+.btn .badge {
+  margin: -2px -4px -2px 4px;
+  font-size: 12px;
+  background-color: rgba(0, 0, 0, 0.15); }
+
+/* line 149, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/buttons.scss */
+.btn .badge-inverted,
+.btn:active .badge-inverted {
+  background-color: transparent; }
+
+/* line 153, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/buttons.scss */
+.btn-primary:active .badge-inverted,
+.btn-positive:active .badge-inverted,
+.btn-negative:active .badge-inverted {
+  color: #fff; }
+
+/* line 162, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/buttons.scss */
+.btn-block .badge {
+  position: absolute;
+  right: 0;
+  margin-right: 10px; }
+
+/* line 172, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/buttons.scss */
+.btn .icon {
+  font-size: inherit; }
+
+/* line 5, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/bars.scss */
+.bar {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 10;
+  height: 44px;
+  padding-right: 10px;
+  padding-left: 10px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden; }
+
+/* line 20, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/bars.scss */
+.bar-header-secondary {
+  top: 44px; }
+
+/* line 25, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/bars.scss */
+.bar-footer {
+  bottom: 0; }
+
+/* line 30, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/bars.scss */
+.bar-footer-secondary {
+  bottom: 44px; }
+
+/* line 35, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/bars.scss */
+.bar-footer-secondary-tab {
+  bottom: 50px; }
+
+/* line 40, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/bars.scss */
+.bar-footer,
+.bar-footer-secondary,
+.bar-footer-secondary-tab {
+  border-top: 1px solid #ddd;
+  border-bottom: 0; }
+
+/* line 52, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/bars.scss */
+.bar-nav {
+  top: 0; }
+
+/* line 59, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/bars.scss */
+.title {
+  position: absolute;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0 -10px;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 44px;
+  color: #000;
+  text-align: center;
+  white-space: nowrap; }
+
+/* line 73, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/bars.scss */
+.title a {
+  color: inherit; }
+
+/* line 82, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/bars.scss */
+.bar-tab {
+  display: table;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  padding: 0;
+  table-layout: fixed;
+  border-top: 1px solid #ddd;
+  border-bottom: 0; }
+  /* line 93, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/bars.scss */
+  .bar-tab .tab-item {
+    display: table-cell;
+    width: 1%;
+    height: 50px;
+    color: #929292;
+    text-align: center;
+    vertical-align: middle; }
+    /* line 102, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/bars.scss */
+    .bar-tab .tab-item.active, .bar-tab .tab-item:active {
+      color: #428bca; }
+    /* line 108, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/bars.scss */
+    .bar-tab .tab-item .icon {
+      top: 3px;
+      width: 24px;
+      height: 24px;
+      padding-top: 0;
+      padding-bottom: 0; }
+      /* line 116, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/bars.scss */
+      .bar-tab .tab-item .icon ~ .tab-label {
+        display: block;
+        font-size: 11px; }
+
+/* line 127, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/bars.scss */
+.bar .btn {
+  position: relative;
+  top: 7px;
+  z-index: 20;
+  padding: 6px 12px 7px;
+  margin-top: 0;
+  font-weight: 400; }
+  /* line 136, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/bars.scss */
+  .bar .btn.pull-right {
+    margin-left: 10px; }
+  /* line 139, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/bars.scss */
+  .bar .btn.pull-left {
+    margin-right: 10px; }
+
+/* line 145, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/bars.scss */
+.bar .btn-link {
+  top: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 44px;
+  color: #428bca;
+  border: 0; }
+  /* line 153, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/bars.scss */
+  .bar .btn-link:active, .bar .btn-link.active {
+    color: #3071a9; }
+
+/* line 162, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/bars.scss */
+.bar .btn-block {
+  top: 6px;
+  padding: 7px 0;
+  margin-bottom: 0;
+  font-size: 16px; }
+
+/* line 173, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/bars.scss */
+.bar .btn-nav.pull-left {
+  margin-left: -5px; }
+  /* line 176, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/bars.scss */
+  .bar .btn-nav.pull-left .icon-left-nav {
+    margin-right: -3px; }
+/* line 180, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/bars.scss */
+.bar .btn-nav.pull-right {
+  margin-right: -5px; }
+  /* line 183, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/bars.scss */
+  .bar .btn-nav.pull-right .icon-right-nav {
+    margin-left: -3px; }
+
+/* line 194, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/bars.scss */
+.bar .icon {
+  position: relative;
+  z-index: 20;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 24px; }
+/* line 203, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/bars.scss */
+.bar .btn .icon {
+  top: 3px;
+  padding: 0; }
+/* line 209, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/bars.scss */
+.bar .title .icon {
+  padding: 0; }
+  /* line 213, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/bars.scss */
+  .bar .title .icon.icon-caret {
+    top: 4px;
+    margin-left: -5px; }
+
+/* line 225, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/bars.scss */
+.bar input[type="search"] {
+  height: 29px;
+  margin: 6px 0; }
+
+/* line 235, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/bars.scss */
+.bar .segmented-control {
+  top: 7px;
+  margin: 0 auto; }
+
+/* line 5, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/badges.scss */
+.badge {
+  display: inline-block;
+  padding: 2px 9px 3px;
+  font-size: 12px;
+  line-height: 1;
+  color: #333;
+  background-color: rgba(0, 0, 0, 0.15);
+  border-radius: 100px; }
+  /* line 15, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/badges.scss */
+  .badge.badge-inverted {
+    padding: 0 5px 0 0;
+    background-color: transparent; }
+
+/* line 26, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/badges.scss */
+.badge-primary {
+  color: #fff;
+  background-color: #428bca; }
+  /* line 30, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/badges.scss */
+  .badge-primary.badge-inverted {
+    color: #428bca; }
+
+/* line 36, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/badges.scss */
+.badge-positive {
+  color: #fff;
+  background-color: #5cb85c; }
+  /* line 40, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/badges.scss */
+  .badge-positive.badge-inverted {
+    color: #5cb85c; }
+
+/* line 46, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/badges.scss */
+.badge-negative {
+  color: #fff;
+  background-color: #d9534f; }
+  /* line 50, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/badges.scss */
+  .badge-negative.badge-inverted {
+    color: #d9534f; }
+
+/* line 5, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/cards.scss */
+.card {
+  margin: 10px;
+  overflow: hidden;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px; }
+
+/* line 16, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/cards.scss */
+.card .table-view {
+  margin-bottom: 0;
+  border-top: 0;
+  border-bottom: 0; }
+  /* line 22, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/cards.scss */
+  .card .table-view .table-view-divider:first-child {
+    top: 0;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px; }
+  /* line 29, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/cards.scss */
+  .card .table-view .table-view-divider:last-child {
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px; }
+
+/* line 35, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/cards.scss */
+.card .table-view-cell:last-child {
+  border-bottom: 0; }
+
+/* line 5, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/table-views.scss */
+.table-view {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 15px;
+  list-style: none;
+  background-color: #fff;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd; }
+
+/* line 16, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/table-views.scss */
+.table-view-cell {
+  position: relative;
+  padding: 11px 65px 11px 15px;
+  overflow: hidden;
+  border-bottom: 1px solid #ddd; }
+  /* line 23, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/table-views.scss */
+  .table-view-cell:last-child {
+    border-bottom: 0; }
+  /* line 27, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/table-views.scss */
+  .table-view-cell > a:not(.btn) {
+    position: relative;
+    display: block;
+    padding: inherit;
+    margin: -11px -65px -11px -15px;
+    overflow: hidden;
+    color: inherit; }
+    /* line 35, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/table-views.scss */
+    .table-view-cell > a:not(.btn):active {
+      background-color: #eee; }
+  /* line 39, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/table-views.scss */
+  .table-view-cell p {
+    margin-bottom: 0; }
+
+/* line 48, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/table-views.scss */
+.table-view-divider {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 15px;
+  margin-top: -1px;
+  margin-left: 0;
+  font-weight: 500;
+  color: #999;
+  background-color: #fafafa;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd; }
+
+/* line 65, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/table-views.scss */
+.table-view .media,
+.table-view .media-body {
+  overflow: hidden; }
+
+/* line 70, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/table-views.scss */
+.table-view .media-object.pull-left {
+  margin-right: 10px; }
+/* line 73, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/table-views.scss */
+.table-view .media-object.pull-right {
+  margin-left: 10px; }
+
+/* line 83, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/table-views.scss */
+.table-view-cell > .btn,
+.table-view-cell > .badge,
+.table-view-cell > .toggle,
+.table-view-cell > a > .btn,
+.table-view-cell > a > .badge,
+.table-view-cell > a > .toggle {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); }
+/* line 97, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/table-views.scss */
+.table-view-cell .navigate-left > .btn,
+.table-view-cell .navigate-left > .badge,
+.table-view-cell .navigate-left > .toggle,
+.table-view-cell .navigate-right > .btn,
+.table-view-cell .navigate-right > .badge,
+.table-view-cell .navigate-right > .toggle,
+.table-view-cell .push-left > .btn,
+.table-view-cell .push-left > .badge,
+.table-view-cell .push-left > .toggle,
+.table-view-cell .push-right > .btn,
+.table-view-cell .push-right > .badge,
+.table-view-cell .push-right > .toggle,
+.table-view-cell > a .navigate-left > .btn,
+.table-view-cell > a .navigate-left > .badge,
+.table-view-cell > a .navigate-left > .toggle,
+.table-view-cell > a .navigate-right > .btn,
+.table-view-cell > a .navigate-right > .badge,
+.table-view-cell > a .navigate-right > .toggle,
+.table-view-cell > a .push-left > .btn,
+.table-view-cell > a .push-left > .badge,
+.table-view-cell > a .push-left > .toggle,
+.table-view-cell > a .push-right > .btn,
+.table-view-cell > a .push-right > .badge,
+.table-view-cell > a .push-right > .toggle {
+  right: 35px; }
+
+/* line 106, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/table-views.scss */
+.content > .table-view:first-child {
+  margin-top: 15px; }
+
+/* line 6, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/forms.scss */
+input,
+textarea,
+button,
+select {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 17px; }
+
+/* line 15, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/forms.scss */
+select,
+textarea,
+input[type="text"],
+input[type="search"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="tel"],
+input[type="color"] {
+  width: 100%;
+  height: 35px;
+  -webkit-appearance: none;
+  padding: 0 15px;
+  margin-bottom: 15px;
+  line-height: 21px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  outline: none; }
+
+/* line 44, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/forms.scss */
+input[type="search"] {
+  padding: 0 10px;
+  font-size: 16px;
+  border-radius: 20px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 53, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/forms.scss */
+input[type="search"]:focus {
+  text-align: left; }
+
+/* line 58, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/forms.scss */
+textarea {
+  height: auto; }
+
+/* line 63, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/forms.scss */
+select {
+  height: auto;
+  font-size: 14px;
+  background-color: #f8f8f8;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1); }
+
+/* line 75, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/forms.scss */
+.input-group {
+  background-color: #fff; }
+
+/* line 78, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/forms.scss */
+.input-group input,
+.input-group textarea {
+  margin-bottom: 0;
+  background-color: transparent;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+
+/* line 93, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/forms.scss */
+.input-row {
+  overflow: hidden;
+  height: 35px;
+  border-bottom: 1px solid #ddd; }
+
+/* line 100, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/forms.scss */
+.input-row label {
+  float: left;
+  width: 35%;
+  padding: 8px 15px;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  line-height: 1.1; }
+
+/* line 109, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/forms.scss */
+.input-row input {
+  float: right;
+  width: 65%;
+  padding-left: 0;
+  margin-bottom: 0;
+  border: 0; }
+
+/* line 5, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/segmented-controls.scss */
+.segmented-control {
+  position: relative;
+  display: table;
+  overflow: hidden;
+  font-size: 12px;
+  font-weight: 400;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 3px; }
+  /* line 16, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/segmented-controls.scss */
+  .segmented-control .control-item {
+    display: table-cell;
+    width: 1%;
+    padding-top: 6px;
+    padding-bottom: 7px;
+    overflow: hidden;
+    line-height: 1;
+    color: #333;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    border-left: 1px solid #ccc; }
+    /* line 30, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/segmented-controls.scss */
+    .segmented-control .control-item:first-child {
+      border-left-width: 0; }
+    /* line 35, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/segmented-controls.scss */
+    .segmented-control .control-item:active {
+      background-color: #eee; }
+    /* line 40, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/segmented-controls.scss */
+    .segmented-control .control-item.active {
+      background-color: #ccc; }
+
+/* line 50, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/segmented-controls.scss */
+.segmented-control-primary {
+  border-color: #428bca; }
+  /* line 53, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/segmented-controls.scss */
+  .segmented-control-primary .control-item {
+    color: #428bca;
+    border-color: inherit; }
+    /* line 57, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/segmented-controls.scss */
+    .segmented-control-primary .control-item:active {
+      background-color: #cde1f1; }
+    /* line 60, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/segmented-controls.scss */
+    .segmented-control-primary .control-item.active {
+      color: #fff;
+      background-color: #428bca; }
+
+/* line 68, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/segmented-controls.scss */
+.segmented-control-positive {
+  border-color: #5cb85c; }
+  /* line 71, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/segmented-controls.scss */
+  .segmented-control-positive .control-item {
+    color: #5cb85c;
+    border-color: inherit; }
+    /* line 75, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/segmented-controls.scss */
+    .segmented-control-positive .control-item:active {
+      background-color: #d8eed8; }
+    /* line 78, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/segmented-controls.scss */
+    .segmented-control-positive .control-item.active {
+      color: #fff;
+      background-color: #5cb85c; }
+
+/* line 86, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/segmented-controls.scss */
+.segmented-control-negative {
+  border-color: #d9534f; }
+  /* line 89, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/segmented-controls.scss */
+  .segmented-control-negative .control-item {
+    color: #d9534f;
+    border-color: inherit; }
+    /* line 93, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/segmented-controls.scss */
+    .segmented-control-negative .control-item:active {
+      background-color: #f9e2e2; }
+    /* line 96, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/segmented-controls.scss */
+    .segmented-control-negative .control-item.active {
+      color: #fff;
+      background-color: #d9534f; }
+
+/* line 104, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/segmented-controls.scss */
+.control-content {
+  display: none; }
+  /* line 107, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/segmented-controls.scss */
+  .control-content.active {
+    display: block; }
+
+/* line 5, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/popovers.scss */
+.popover {
+  position: fixed;
+  top: 55px;
+  left: 50%;
+  z-index: 20;
+  display: none;
+  width: 280px;
+  margin-left: -140px;
+  background-color: #fff;
+  border-radius: 6px;
+  opacity: 0;
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  -webkit-transform: translate3d(0, -15px, 0);
+  -ms-transform: translate3d(0, -15px, 0);
+  transform: translate3d(0, -15px, 0);
+  -webkit-transition: all 0.25s linear;
+  -moz-transition: all 0.25s linear;
+  transition: all 0.25s linear; }
+  /* line 21, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/popovers.scss */
+  .popover:before {
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    width: 0;
+    height: 0;
+    margin-left: -15px;
+    content: '';
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid #fff;
+    border-left: 15px solid transparent; }
+  /* line 37, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/popovers.scss */
+  .popover.visible {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); }
+  /* line 43, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/popovers.scss */
+  .popover .bar ~ .table-view {
+    padding-top: 44px; }
+
+/* line 51, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/popovers.scss */
+.backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 15;
+  background-color: rgba(0, 0, 0, 0.3); }
+
+/* line 64, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/popovers.scss */
+.popover .btn-block {
+  margin-bottom: 5px; }
+  /* line 68, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/popovers.scss */
+  .popover .btn-block:last-child {
+    margin-bottom: 0; }
+
+/* line 77, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/popovers.scss */
+.popover .bar-nav {
+  border-bottom: 1px solid #ddd;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+
+/* line 88, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/popovers.scss */
+.popover .table-view {
+  max-height: 300px;
+  margin-bottom: 0;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  background-color: #fff;
+  border-top: 0;
+  border-bottom: 0;
+  border-radius: 6px; }
+
+/* line 5, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/modals.scss */
+.modal {
+  position: fixed;
+  top: 0;
+  z-index: 11;
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  background-color: #fff;
+  opacity: 0;
+  -webkit-transition: -webkit-transform .25s, opacity 1ms .25s;
+  -moz-transition: -moz-transform .25s, opacity 1ms .25s;
+  transition: transform .25s, opacity 1ms .25s;
+  -webkit-transform: translate3d(0, 100%, 0);
+  -ms-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0); }
+  /* line 20, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/modals.scss */
+  .modal.active {
+    height: 100%;
+    opacity: 1;
+    -webkit-transition: -webkit-transform .25s;
+    -moz-transition: -moz-transform .25s;
+    transition: transform .25s;
+    -webkit-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); }
+
+/* line 6, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/sliders.scss */
+.slider {
+  width: 100%; }
+
+/* line 11, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/sliders.scss */
+.slider {
+  overflow: hidden;
+  background-color: #000; }
+  /* line 16, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/sliders.scss */
+  .slider .slide-group {
+    position: relative;
+    font-size: 0;
+    white-space: nowrap;
+    -webkit-transition: all 0s linear;
+    -moz-transition: all 0s linear;
+    transition: all 0s linear; }
+    /* line 23, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/sliders.scss */
+    .slider .slide-group .slide {
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+      font-size: 14px;
+      vertical-align: top; }
+
+/* line 5, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/toggles.scss */
+.toggle {
+  position: relative;
+  display: block;
+  width: 74px;
+  height: 30px;
+  background-color: #fff;
+  border: 2px solid #ddd;
+  border-radius: 20px;
+  -webkit-transition-property: background-color, border;
+  -moz-transition-property: background-color, border;
+  transition-property: background-color, border;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  transition-duration: 0.2s; }
+  /* line 17, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/toggles.scss */
+  .toggle .toggle-handle {
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    z-index: 2;
+    width: 28px;
+    height: 28px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 100px;
+    -webkit-transition-property: -webkit-transform, border, width;
+    -moz-transition-property: -moz-transform, border, width;
+    transition-property: transform, border, width;
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    transition-duration: 0.2s; }
+  /* line 32, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/toggles.scss */
+  .toggle:before {
+    position: absolute;
+    top: 3px;
+    right: 11px;
+    font-size: 13px;
+    color: #999;
+    text-transform: uppercase;
+    content: "Off"; }
+  /* line 43, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/toggles.scss */
+  .toggle.active {
+    background-color: #5cb85c;
+    border: 2px solid #5cb85c; }
+    /* line 47, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/toggles.scss */
+    .toggle.active .toggle-handle {
+      border-color: #5cb85c;
+      -webkit-transform: translate3d(44px, 0, 0);
+      -ms-transform: translate3d(44px, 0, 0);
+      transform: translate3d(44px, 0, 0); }
+    /* line 51, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/toggles.scss */
+    .toggle.active:before {
+      right: auto;
+      left: 15px;
+      color: #fff;
+      content: "On"; }
+  /* line 59, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/toggles.scss */
+  .toggle input[type="checkbox"] {
+    display: none; }
+
+/* line 7, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/push.scss */
+.content.fade {
+  left: 0;
+  opacity: 0; }
+  /* line 11, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/push.scss */
+  .content.fade.in {
+    opacity: 1; }
+/* line 17, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/push.scss */
+.content.sliding {
+  z-index: 2;
+  -webkit-transition: -webkit-transform .4s;
+  -moz-transition: -moz-transform .4s;
+  transition: transform .4s;
+  -webkit-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); }
+  /* line 24, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/push.scss */
+  .content.sliding.left {
+    z-index: 1;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    -ms-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0); }
+  /* line 29, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/push.scss */
+  .content.sliding.right {
+    z-index: 3;
+    -webkit-transform: translate3d(100%, 0, 0);
+    -ms-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0); }
+
+/* line 41, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/push.scss */
+.navigate-left:after,
+.navigate-right:after,
+.push-left:after,
+.push-right:after {
+  position: absolute;
+  top: 50%;
+  display: inline-block;
+  font-family: Ratchicons;
+  font-size: inherit;
+  line-height: 1;
+  color: #bbb;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); }
+
+/* line 54, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/push.scss */
+.navigate-left:after,
+.push-left:after {
+  left: 15px;
+  content: '\e822'; }
+
+/* line 59, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/push.scss */
+.navigate-right:after,
+.push-right:after {
+  right: 15px;
+  content: '\e826'; }
+
+@font-face {
+  font-family: Ratchicons;
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/ratchet/ratchicons.eot");
+  src: url("../fonts/ratchet/ratchicons.eot?#iefix") format("embedded-opentype"), url("../fonts/ratchet/ratchicons.woff") format("woff"), url("../fonts/ratchet/ratchicons.ttf") format("truetype"), url("../fonts/ratchet/ratchicons.svg#svgFontName") format("svg"); }
+/* line 16, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/ratchicons.scss */
+.icon {
+  display: inline-block;
+  font-family: Ratchicons;
+  font-size: 24px;
+  line-height: 1;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased; }
+
+/* line 25, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/ratchicons.scss */
+.icon-back:before {
+  content: '\e80a'; }
+
+/* line 26, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/ratchicons.scss */
+.icon-bars:before {
+  content: '\e80e'; }
+
+/* line 27, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/ratchicons.scss */
+.icon-caret:before {
+  content: '\e80f'; }
+
+/* line 28, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/ratchicons.scss */
+.icon-check:before {
+  content: '\e810'; }
+
+/* line 29, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/ratchicons.scss */
+.icon-close:before {
+  content: '\e811'; }
+
+/* line 30, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/ratchicons.scss */
+.icon-code:before {
+  content: '\e812'; }
+
+/* line 31, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/ratchicons.scss */
+.icon-compose:before {
+  content: '\e813'; }
+
+/* line 32, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/ratchicons.scss */
+.icon-download:before {
+  content: '\e815'; }
+
+/* line 33, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/ratchicons.scss */
+.icon-edit:before {
+  content: '\e829'; }
+
+/* line 34, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/ratchicons.scss */
+.icon-forward:before {
+  content: '\e82a'; }
+
+/* line 35, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/ratchicons.scss */
+.icon-gear:before {
+  content: '\e821'; }
+
+/* line 36, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/ratchicons.scss */
+.icon-home:before {
+  content: '\e82b'; }
+
+/* line 37, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/ratchicons.scss */
+.icon-info:before {
+  content: '\e82c'; }
+
+/* line 38, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/ratchicons.scss */
+.icon-list:before {
+  content: '\e823'; }
+
+/* line 39, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/ratchicons.scss */
+.icon-more-vertical:before {
+  content: '\e82e'; }
+
+/* line 40, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/ratchicons.scss */
+.icon-more:before {
+  content: '\e82f'; }
+
+/* line 41, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/ratchicons.scss */
+.icon-pages:before {
+  content: '\e824'; }
+
+/* line 42, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/ratchicons.scss */
+.icon-pause:before {
+  content: '\e830'; }
+
+/* line 43, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/ratchicons.scss */
+.icon-person:before {
+  content: '\e832'; }
+
+/* line 44, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/ratchicons.scss */
+.icon-play:before {
+  content: '\e816'; }
+
+/* line 45, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/ratchicons.scss */
+.icon-plus:before {
+  content: '\e817'; }
+
+/* line 46, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/ratchicons.scss */
+.icon-refresh:before {
+  content: '\e825'; }
+
+/* line 47, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/ratchicons.scss */
+.icon-search:before {
+  content: '\e819'; }
+
+/* line 48, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/ratchicons.scss */
+.icon-share:before {
+  content: '\e81a'; }
+
+/* line 49, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/ratchicons.scss */
+.icon-sound:before {
+  content: '\e827'; }
+
+/* line 50, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/ratchicons.scss */
+.icon-sound2:before {
+  content: '\e828'; }
+
+/* line 51, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/ratchicons.scss */
+.icon-sound3:before {
+  content: '\e80b'; }
+
+/* line 52, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/ratchicons.scss */
+.icon-sound4:before {
+  content: '\e80c'; }
+
+/* line 53, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/ratchicons.scss */
+.icon-star-filled:before {
+  content: '\e81b'; }
+
+/* line 54, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/ratchicons.scss */
+.icon-star:before {
+  content: '\e81c'; }
+
+/* line 55, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/ratchicons.scss */
+.icon-stop:before {
+  content: '\e81d'; }
+
+/* line 56, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/ratchicons.scss */
+.icon-trash:before {
+  content: '\e81e'; }
+
+/* line 57, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/ratchicons.scss */
+.icon-up-nav:before {
+  content: '\e81f'; }
+
+/* line 58, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/ratchicons.scss */
+.icon-up:before {
+  content: '\e80d'; }
+
+/* line 59, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/ratchicons.scss */
+.icon-right-nav:before {
+  content: '\e818'; }
+
+/* line 60, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/ratchicons.scss */
+.icon-right:before {
+  content: '\e826'; }
+
+/* line 61, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/ratchicons.scss */
+.icon-down-nav:before {
+  content: '\e814'; }
+
+/* line 62, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/ratchicons.scss */
+.icon-down:before {
+  content: '\e820'; }
+
+/* line 63, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/ratchicons.scss */
+.icon-left-nav:before {
+  content: '\e82d'; }
+
+/* line 64, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/ratchicons.scss */
+.icon-left:before {
+  content: '\e822'; }
+/*
+
+ */
+/* line 36, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+a {
+  color: #007aff; }
+  /* line 39, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+  a:active {
+    color: #0062cc; }
+
+/* line 45, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+.content {
+  background-color: #efeff4; }
+
+/* line 53, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+.h5, h5,
+.h6, h6,
+p {
+  color: #8f8f94; }
+
+/* line 58, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+.h5, h5,
+.h6, h6 {
+  font-weight: normal;
+  text-transform: uppercase; }
+
+/* line 68, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+.btn {
+  color: #929292;
+  background-color: rgba(247, 247, 247, 0.98);
+  border: 1px solid #929292;
+  -webkit-transition: all;
+  -moz-transition: all;
+  transition: all;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  transition-timing-function: linear; }
+  /* line 77, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+  .btn:active, .btn.active {
+    color: #fff;
+    background-color: #929292; }
+
+/* line 89, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+.btn-primary {
+  color: #fff;
+  background-color: #007aff;
+  border: 1px solid #007aff; }
+  /* line 94, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+  .btn-primary:active, .btn-primary.active {
+    background-color: #0062cc;
+    border: 1px solid #0062cc; }
+
+/* line 102, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+.btn-positive {
+  color: #fff;
+  background-color: #4cd964;
+  border: 1px solid #4cd964; }
+  /* line 107, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+  .btn-positive:active, .btn-positive.active {
+    background-color: #2ac845;
+    border: 1px solid #2ac845; }
+
+/* line 115, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+.btn-negative {
+  color: #fff;
+  background-color: #dd524d;
+  border: 1px solid #dd524d; }
+  /* line 120, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+  .btn-negative:active, .btn-negative.active {
+    background-color: #cf2d28;
+    border: 1px solid #cf2d28; }
+
+/* line 128, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+.btn-outlined {
+  background-color: transparent; }
+  /* line 131, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+  .btn-outlined.btn-primary {
+    color: #007aff; }
+  /* line 134, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+  .btn-outlined.btn-positive {
+    color: #4cd964; }
+  /* line 137, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+  .btn-outlined.btn-negative {
+    color: #dd524d; }
+  /* line 141, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+  .btn-outlined.btn-primary:active, .btn-outlined.btn-positive:active, .btn-outlined.btn-negative:active {
+    color: #fff; }
+
+/* line 149, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+.btn-link {
+  color: #007aff;
+  background-color: transparent;
+  border: none; }
+  /* line 154, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+  .btn-link:active, .btn-link.active {
+    color: #0062cc;
+    background-color: transparent; }
+
+/* line 163, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+.btn .badge {
+  background-color: rgba(0, 0, 0, 0.15); }
+  /* line 166, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+  .btn .badge.badge-inverted {
+    background-color: transparent; }
+/* line 172, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+.btn:active .badge {
+  color: #fff; }
+
+/* line 182, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+.bar {
+  background-color: rgba(247, 247, 247, 0.98);
+  border-bottom: 0;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.85);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.85); }
+  /* line 188, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+  .bar.bar-header-secondary {
+    top: 44px; }
+  /* line 193, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+  .bar.bar-footer-secondary {
+    bottom: 44px; }
+  /* line 198, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+  .bar.bar-footer-secondary-tab {
+    bottom: 50px; }
+  /* line 202, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+  .bar.bar-footer, .bar.bar-footer-secondary, .bar.bar-footer-secondary-tab {
+    border-top: 0; }
+
+/* line 210, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+.bar-tab {
+  border-top: 0; }
+
+/* line 213, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+.tab-item {
+  color: #929292; }
+  /* line 217, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+  .tab-item.active, .tab-item:active {
+    color: #007aff; }
+
+/* line 226, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+.bar-nav .btn-link {
+  color: #007aff; }
+  /* line 229, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+  .bar-nav .btn-link:active {
+    color: #007aff;
+    opacity: .6; }
+
+/* line 242, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+.badge.badge-inverted {
+  color: #929292;
+  background-color: transparent; }
+
+/* line 252, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+.badge-primary {
+  color: #fff;
+  background-color: #007aff; }
+  /* line 256, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+  .badge-primary.badge-inverted {
+    color: #007aff;
+    background-color: transparent; }
+
+/* line 263, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+.badge-positive {
+  color: #fff;
+  background-color: #4cd964; }
+  /* line 267, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+  .badge-positive.badge-inverted {
+    color: #4cd964;
+    background-color: transparent; }
+
+/* line 274, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+.badge-negative {
+  color: #fff;
+  background-color: #dd524d; }
+  /* line 278, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+  .badge-negative.badge-inverted {
+    color: #dd524d;
+    background-color: transparent; }
+
+/* line 289, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+.card .table-view {
+  background-image: none; }
+
+/* line 292, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+.card .table-view-cell:last-child {
+  background-image: none; }
+
+/* line 299, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+.table-view {
+  border-top: 0;
+  border-bottom: 0;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100%' height='1'><rect fill='#c8c7cc' x='0' y='0' width='100%' height='0.5'/></svg>"), url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100%' height='1'><rect fill='#c8c7cc' x='0' y='0' width='100%' height='0.5'/></svg>");
+  background-position: 0 100%, 0 0;
+  background-repeat: no-repeat; }
+  /* line 304, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+  .table-view .table-view-cell {
+    border-bottom: 0;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100%' height='1'><rect fill='#c8c7cc' x='0' y='0' width='100%' height='0.5'/></svg>");
+    background-position: 15px 100%;
+    background-repeat: no-repeat; }
+    /* line 309, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+    .table-view .table-view-cell:last-child {
+      background-image: none; }
+    /* line 312, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+    .table-view .table-view-cell > a:not(.btn):active {
+      color: inherit; }
+  /* line 318, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+  .table-view .table-view-divider {
+    border-top: 0;
+    border-bottom: 0;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100%' height='1'><rect fill='#c8c7cc' x='0' y='0' width='100%' height='0.5'/></svg>"), url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100%' height='1'><rect fill='#c8c7cc' x='0' y='0' width='100%' height='0.5'/></svg>");
+    background-position: 0 100%, 0 0;
+    background-repeat: no-repeat; }
+
+/* line 329, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+select,
+textarea,
+input[type="text"],
+input[type="search"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="tel"],
+input[type="color"],
+.input-group {
+  height: 40px;
+  padding: 10px 15px;
+  border: 1px solid rgba(0, 0, 0, 0.2); }
+
+/* line 352, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+input[type="search"] {
+  height: 34px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 0;
+  border-radius: 6px; }
+
+/* line 359, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+input[type="search"]:focus {
+  text-align: left; }
+
+/* line 362, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+select,
+textarea,
+.input-group {
+  height: auto; }
+
+/* line 370, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+.input-group {
+  padding: 0;
+  border: 0;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100%' height='1'><rect fill='#c8c7cc' x='0' y='0' width='100%' height='0.5'/></svg>"), url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100%' height='1'><rect fill='#c8c7cc' x='0' y='0' width='100%' height='0.5'/></svg>");
+  background-position: 0 100%, 0 0;
+  background-repeat: no-repeat; }
+
+/* line 375, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+.input-group input {
+  border: 0;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100%' height='1'><rect fill='#c8c7cc' x='0' y='0' width='100%' height='0.5'/></svg>");
+  background-position: 15px 100%;
+  background-repeat: no-repeat; }
+
+/* line 380, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+.input-group input:last-child {
+  background-image: none; }
+
+/* line 388, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+.input-row {
+  border-bottom: 0;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100%' height='1'><rect fill='#c8c7cc' x='0' y='0' width='100%' height='0.5'/></svg>");
+  background-position: 15px 100%;
+  background-repeat: no-repeat; }
+
+/* line 393, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+.input-row:last-child,
+.input-row label + input {
+  background-image: none; }
+
+/* line 402, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+.segmented-control {
+  background-color: transparent;
+  border: 1px solid #929292; }
+  /* line 406, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+  .segmented-control .control-item {
+    color: #929292;
+    border-color: #929292;
+    -webkit-transition: background-color 0.1s linear;
+    -moz-transition: background-color 0.1s linear;
+    transition: background-color 0.1s linear; }
+    /* line 411, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+    .segmented-control .control-item:active {
+      background-color: #ebebeb; }
+    /* line 414, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+    .segmented-control .control-item.active {
+      color: #fff;
+      background-color: #929292; }
+
+/* line 424, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+.segmented-control-primary {
+  border: 1px solid #007aff; }
+  /* line 427, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+  .segmented-control-primary .control-item {
+    color: #007aff;
+    border-color: inherit; }
+    /* line 431, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+    .segmented-control-primary .control-item:active {
+      background-color: #b3d7ff; }
+    /* line 434, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+    .segmented-control-primary .control-item.active {
+      color: #fff;
+      background-color: #007aff; }
+
+/* line 442, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+.segmented-control-positive {
+  border: 1px solid #4cd964; }
+  /* line 445, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+  .segmented-control-positive .control-item {
+    color: #4cd964;
+    border-color: inherit; }
+    /* line 449, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+    .segmented-control-positive .control-item:active {
+      background-color: #dff8e3; }
+    /* line 452, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+    .segmented-control-positive .control-item.active {
+      color: #fff;
+      background-color: #4cd964; }
+
+/* line 460, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+.segmented-control-negative {
+  border: 1px solid #dd524d; }
+  /* line 463, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+  .segmented-control-negative .control-item {
+    color: #dd524d;
+    border-color: inherit; }
+    /* line 467, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+    .segmented-control-negative .control-item:active {
+      background-color: #fae4e3; }
+    /* line 470, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+    .segmented-control-negative .control-item.active {
+      color: #fff;
+      background-color: #dd524d; }
+
+/* line 481, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+.popover {
+  border-radius: 12px;
+  -webkit-transition: -webkit-transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
+  -moz-transition: -webkit-transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
+  transition: -webkit-transform 0.2s ease-in-out, opacity 0.2s ease-in-out; }
+  /* line 485, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+  .popover:before {
+    border-bottom: 15px solid rgba(247, 247, 247, 0.98); }
+
+/* line 491, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+.popover .bar {
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+
+/* line 496, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+.popover .bar-nav {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15); }
+
+/* line 501, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+.popover .table-view {
+  background-image: none;
+  border-radius: 12px; }
+
+/* line 510, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+.modal {
+  -webkit-transition-timing-function: cubic-bezier(0.1, 0.5, 0.1, 1);
+  -moz-transition-timing-function: cubic-bezier(0.1, 0.5, 0.1, 1);
+  transition-timing-function: cubic-bezier(0.1, 0.5, 0.1, 1); }
+  /* line 514, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+  .modal.active {
+    -webkit-transition-timing-function: cubic-bezier(0.1, 0.5, 0.1, 1);
+    -moz-transition-timing-function: cubic-bezier(0.1, 0.5, 0.1, 1);
+    transition-timing-function: cubic-bezier(0.1, 0.5, 0.1, 1); }
+
+/* line 522, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+.toggle {
+  width: 47px;
+  border: 2px solid #e6e6e6;
+  -webkit-box-shadow: inset 0 0 0 0 #e1e1e1;
+  box-shadow: inset 0 0 0 0 #e1e1e1;
+  -webkit-transition-property: box-shadow, border;
+  -moz-transition-property: box-shadow, border;
+  transition-property: box-shadow, border;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  transition-duration: 0.2s; }
+  /* line 530, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+  .toggle .toggle-handle {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    -webkit-transition-property: -webkit-transform, border, width;
+    -moz-transition-property: -moz-transform, border, width;
+    transition-property: transform, border, width;
+    -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.08); }
+  /* line 537, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+  .toggle:before {
+    display: none; }
+  /* line 541, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+  .toggle.active {
+    background-color: transparent;
+    border: 2px solid #4cd964;
+    -webkit-box-shadow: inset 0 0 0 13px #4cd964;
+    box-shadow: inset 0 0 0 13px #4cd964; }
+    /* line 546, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+    .toggle.active .toggle-handle {
+      -webkit-transform: translate3d(17px, 0, 0);
+      -ms-transform: translate3d(17px, 0, 0);
+      transform: translate3d(17px, 0, 0); }
+    /* line 550, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+    .toggle.active .toggle-handle {
+      border-color: #4cd964; }
+
+/* line 561, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+.content.fade {
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out; }
+/* line 565, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+.content.sliding {
+  -webkit-transition-timing-function: cubic-bezier(0.1, 0.5, 0.1, 1);
+  -moz-transition-timing-function: cubic-bezier(0.1, 0.5, 0.1, 1);
+  transition-timing-function: cubic-bezier(0.1, 0.5, 0.1, 1); }
+  /* line 569, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+  .content.sliding.sliding-in, .content.sliding.right:not([class*="sliding-in"]) {
+    -webkit-animation-name: fadeOverlay;
+    -moz-animation-name: fadeOverlay;
+    animation-name: fadeOverlay;
+    -webkit-animation-duration: 0.4s;
+    -moz-animation-duration: 0.4s;
+    animation-duration: 0.4s; }
+  /* line 575, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+  .content.sliding.right:not([class*="sliding-in"]) {
+    -webkit-animation-direction: reverse;
+    -moz-animation-direction: reverse;
+    animation-direction: reverse; }
+  /* line 579, /Users/amber/Workspace/RUBY/frontend-toolkit/assets/stylesheets/ratchet/theme-ios.scss */
+  .content.sliding.left {
+    -webkit-transform: translate3d(-20%, 0, 0);
+    -ms-transform: translate3d(-20%, 0, 0);
+    transform: translate3d(-20%, 0, 0); }
+
+@-webkit-keyframes fadeOverlay {
+  from {
+    -webkit-box-shadow: 0 0 10px transparent, -320px 0 0 transparent;
+    box-shadow: 0 0 10px transparent, -320px 0 0 transparent; }
+  to {
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3), -320px 0 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3), -320px 0 0 rgba(0, 0, 0, 0.1); } }
+/* line 10, /Users/amber/Workspace/DEMO/backbone-ratchet/source/stylesheets/structure.scss */
+a[sref] {
+  cursor: pointer; }
+
+/* line 3, /Users/amber/Workspace/DEMO/backbone-ratchet/source/stylesheets/structure/_sidebar.scss */
+.sidebar {
+  width: 240px;
+  z-index: 0; }
+
+/* line 8, /Users/amber/Workspace/DEMO/backbone-ratchet/source/stylesheets/structure/_sidebar.scss */
+.container {
+  -webkit-transition: -webkit-transform 0.25s;
+  -moz-transition: -moz-transform 0.25s;
+  -o-transition: -o-transform 0.25s;
+  transition: transform 0.25s;
+  box-shadow: -1px 0 2px rgba(0, 0, 0, 0.25), 1px 0 2px rgba(0, 0, 0, 0.25);
+  overflow-x: hidden;
+  z-index: 1; }
+
+/* line 15, /Users/amber/Workspace/DEMO/backbone-ratchet/source/stylesheets/structure/_sidebar.scss */
+.container.sidebar-active {
+  -webkit-transform: translateX(240px);
+  -moz-transform: translateX(240px);
+  -ms-transform: translateX(240px);
+  -o-transform: translateX(240px);
+  transform: translateX(240px); }
+
+/* line 3, /Users/amber/Workspace/DEMO/backbone-ratchet/source/stylesheets/structure/_slider.scss */
+.slider .slide {
+  cursor: -webkit-grab;
+  cursor: -moz-grab;
+  cursor: grab; }
+  /* line 7, /Users/amber/Workspace/DEMO/backbone-ratchet/source/stylesheets/structure/_slider.scss */
+  .slider .slide img {
+    display: block;
+    width: 100%; }
+/* line 13, /Users/amber/Workspace/DEMO/backbone-ratchet/source/stylesheets/structure/_slider.scss */
+.slider .slide-group .slide-text {
+  position: absolute;
+  top: 45%;
+  left: 0;
+  width: 100%;
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
+
+/* line 2, /Users/amber/Workspace/DEMO/backbone-ratchet/source/stylesheets/structure/_form.scss */
+.input-toggle {
+  height: 30px;
+  margin-bottom: 15px;
+  overflow: hidden; }
+  /* line 7, /Users/amber/Workspace/DEMO/backbone-ratchet/source/stylesheets/structure/_form.scss */
+  .input-toggle label {
+    float: left;
+    width: 35%;
+    padding: 8px 0;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    line-height: 1.1;
+    color: #8f8f94; }
+  /* line 16, /Users/amber/Workspace/DEMO/backbone-ratchet/source/stylesheets/structure/_form.scss */
+  .input-toggle .toggle {
+    float: right; }
+
+/* line 2, /Users/amber/Workspace/DEMO/backbone-ratchet/source/stylesheets/structure/_buttons.scss */
+.btn-group {
+  position: relative;
+  display: table;
+  border-spacing: 10px 0;
+  margin: 0 -10px; }
+  /* line 8, /Users/amber/Workspace/DEMO/backbone-ratchet/source/stylesheets/structure/_buttons.scss */
+  .btn-group .btn {
+    display: table-cell;
+    width: 1%; }
+
+/* line 14, /Users/amber/Workspace/DEMO/backbone-ratchet/source/stylesheets/structure/_buttons.scss */
+.btn-warning {
+  color: #fff;
+  background-color: #fdb338;
+  border: 1px solid #fdb338; }
+
+/* line 19, /Users/amber/Workspace/DEMO/backbone-ratchet/source/stylesheets/structure/_buttons.scss */
+.btn-outlined.btn-warning {
+  color: #fdb338; }
+
+/* line 22, /Users/amber/Workspace/DEMO/backbone-ratchet/source/stylesheets/structure/_buttons.scss */
+.btn-warning:active, .btn-warning.active {
+  color: #fff;
+  background-color: #fca006;
+  border: 1px solid #fca006; }
+
+/* line 27, /Users/amber/Workspace/DEMO/backbone-ratchet/source/stylesheets/structure/_buttons.scss */
+.btn-outlined {
+  background-color: transparent; }
+/*
+
+
+
+ */
+
